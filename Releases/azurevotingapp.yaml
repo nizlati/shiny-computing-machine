@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: azure-vote-back
-  namespace: shinycomputingmachine
+  namespace: default
 spec:
   replicas: 1
   selector:
@@ -33,7 +33,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: azure-vote-back
-  namespace: shinycomputingmachine
+  namespace: default
 spec:
   ports:
   - port: 6379
@@ -44,7 +44,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: azure-vote-front
-  namespace: shinycomputingmachine
+  namespace: default
 spec:
   replicas: 1
   selector:
@@ -77,7 +77,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: azure-vote-front
-  namespace: shinycomputingmachine
+  namespace: default
 spec:
   type: LoadBalancer
   ports:
