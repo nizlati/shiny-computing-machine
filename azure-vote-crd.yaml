@@ -12,6 +12,6 @@ spec:
   chart:
     git: git://github.com/nizlati/shiny-computing-machine
     ref: master
-    path: docs
+    path: azure-vote
   values:
     title: "Azure Vote App Test"
