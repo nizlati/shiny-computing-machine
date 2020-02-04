@@ -14,6 +14,5 @@ spec:
     ref: master
     path: azure-vote
   values:
-    title: "Azure Vote App - Winter Sports"
-    value1: Ski
-    value2: Snowboard
+    title: "Azure Vote App - Version 2"
+
