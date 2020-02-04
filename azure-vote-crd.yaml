@@ -14,4 +14,4 @@ spec:
     ref: master
     path: azure-vote
   values:
-    title: "Azure Vote App Test revision 2"
+    title: "Azure Vote App - Cats or Dogs?"
